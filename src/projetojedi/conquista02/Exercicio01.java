@@ -7,6 +7,5 @@ public class Exercicio01 {
         int i = 5;
         if (i==100) {
             System.out.println("Verdadeiro");}
-
     }
 }
