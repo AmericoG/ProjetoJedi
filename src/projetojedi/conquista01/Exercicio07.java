@@ -11,8 +11,10 @@ public class Exercicio07 {
         boolean m = k > q;
         boolean n = k == q;
         boolean o = k < q;
+        boolean p = k != q;
         System.out.println("Valor de m é: " + m);
         System.out.println("Valor de n é: " + n);
         System.out.println("Valor de o é: " + o);
+        System.out.println("Valor de p é: " + p);
     }
 }
