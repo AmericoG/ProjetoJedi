@@ -15,7 +15,6 @@ public class Exercicio04 {
         int numero = teclado.nextInt();
         for (int i = 1; i <= numero; i++) {
             System.out.println(i + ". " + nome);
-
         }
     }
 }
