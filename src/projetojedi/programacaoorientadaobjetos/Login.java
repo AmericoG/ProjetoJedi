@@ -1,6 +1,4 @@
-package projetojedi.poo;
-
-import java.util.Scanner;
+package projetojedi.programacaoorientadaobjetos;
 
 public class Login {
     private String login;
