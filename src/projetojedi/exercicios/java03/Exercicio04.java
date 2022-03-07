@@ -20,7 +20,7 @@ public class Exercicio04 {
         notas[0] = teclado.nextDouble();
         notas[1] = teclado.nextDouble();
         notas[2] = teclado.nextDouble();
-        aritmetica = (notas[0] + notas[1] + notas[2]) / 3;
+        aritmetica = (notas[0] + notas[1] + notas[2]) / notas.length;
         ponderada = (notas[0] * 3 + notas[1] * 3 + notas[2] * 4) / 10;
 
         System.out.println("Qual é o tipo de média desejado?\nDigite '1' para ARITMÉTICA\n" +
