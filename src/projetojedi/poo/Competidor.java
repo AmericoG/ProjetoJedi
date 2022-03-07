@@ -1,4 +1,4 @@
-package projetojedi.programacaoorientadaobjetos;
+package projetojedi.poo;
 
 public class Competidor {
     private String nome;

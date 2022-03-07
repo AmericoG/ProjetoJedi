@@ -1,4 +1,4 @@
-package projetojedi.programacaoorientadaobjetos;
+package projetojedi.poo;
 
 public class Login {
     private String login;

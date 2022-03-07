@@ -1,4 +1,4 @@
-package projetojedi.programacaoorientadaobjetos;
+package projetojedi.poo;
 
 import java.util.Scanner;
 
