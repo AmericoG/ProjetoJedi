@@ -95,12 +95,15 @@ public class TesteProjetoCompetidor {
                             categoriaDigitadaM = scan.nextInt();
 
                             switch (categoriaDigitadaM) {
-                                case 1: categoria = "Men's Physique";
-                                break;
-                                case 2: categoria = "BodyShape";
-                                break;
-                                case 3: categoria = "Classic";
-                                break;
+                                case 1:
+                                    categoria = "Men's Physique";
+                                    break;
+                                case 2:
+                                    categoria = "BodyShape";
+                                    break;
+                                case 3:
+                                    categoria = "Classic";
+                                    break;
                                 default:
                                     System.out.println("Categoria inválida");
                                     break;
@@ -118,12 +121,15 @@ public class TesteProjetoCompetidor {
                             categoriaDigitadaF = scan.nextInt();
 
                             switch (categoriaDigitadaF) {
-                                case 1: categoria = "Bikini";
-                                break;
-                                case 2: categoria = "Wellness";
-                                break;
-                                case 3: categoria = "Bumbum na nuca";
-                                break;
+                                case 1:
+                                    categoria = "Bikini";
+                                    break;
+                                case 2:
+                                    categoria = "Wellness";
+                                    break;
+                                case 3:
+                                    categoria = "Bumbum na nuca";
+                                    break;
                                 default:
                                     System.out.println("Opção inválida");
                                     break;
@@ -155,10 +161,11 @@ public class TesteProjetoCompetidor {
                     novoCompetidor = new Competidor(nomeDigitado, idadeDigitada, sexoDigitado, cpfDigitado, pesoDigitado,
                             categoria, nivelCategoria);
                     break;
-                case 2: novoCompetidor.dados();
-                break;
+                case 2:
+                    novoCompetidor.dados();
+                    break;
 
-                case 3: System.out.println("");
+                case 3:
                     System.out.println("------ Modalidades Masculinas ------");
                     System.out.println("1 - Men's Physique");
                     System.out.println("2 - BodyShape");
@@ -170,7 +177,8 @@ public class TesteProjetoCompetidor {
 
                     break;
 
-                case 4:  System.out.println("Saindo...");
+                case 4:
+                    System.out.println("Saindo...");
                     System.out.println("Programa encerrado");
                     break;
                 default:

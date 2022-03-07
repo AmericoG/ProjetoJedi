@@ -23,10 +23,11 @@ public class Competidor {
         setNivelCategoria(nivelCategoria);
     }
 
-    public void dados (){
-        System.out.printf("Nome: %s   Idade: %d   Sexo: %s   CPF: %s   Peso: %.2f   Categoria: %s   (%s)",this.nome,
-                this.idade, this.sexo,this.cpf, this.peso, this.categoria, this.nivelCategoria);
+    public void dados() {
+        System.out.printf("Nome: %s   Idade: %d   Sexo: %s   CPF: %s   Peso: %.2f   Categoria: %s   (%s)", this.nome,
+                this.idade, this.sexo, this.cpf, this.peso, this.categoria, this.nivelCategoria);
     }
+
     public String getNivelCategoria() {
         return nivelCategoria;
     }
