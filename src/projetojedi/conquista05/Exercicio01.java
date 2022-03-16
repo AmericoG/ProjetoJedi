@@ -9,12 +9,12 @@ Nome nome casa
 
 public class Exercicio01 {
     public static void main(String[] args) {
-        String[] a = {"Teile ","zaga ","nelas ","a ","a ","a ","a ","a ","a ","a "};
+        String[] a = {"Teile","zaga","nelas","aloka","nera","zika","johnson","nelson","pique","rau"};
         String b = "";
 
         for (String i: a) {
-            b += i;
+            b += i + " ";
+            System.out.println(b);
         }
-        System.out.println(b);
     }
 }
