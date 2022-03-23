@@ -9,7 +9,7 @@ Nome nome casa
 
 public class Exercicio01 {
     public static void main(String[] args) {
-        String[] a = {"Teile","zaga","nelas","aloka","nera","zika","johnson","nelson","pique","rau"};
+        String[] a = {"Em","dezembro","de","81","botou","os","ingleses","na","roda","!!!"};
         String b = "";
 
         for (String i: a) {
