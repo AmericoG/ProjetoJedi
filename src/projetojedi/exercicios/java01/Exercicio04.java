@@ -14,18 +14,24 @@ import java.util.Scanner;
 public class Exercicio04 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
+
         System.out.println("Digite a quantidade de peças e o valor unitário de cada");
         System.out.println("Quantidade (Peça 1)");
         int quantidadePeca1 = teclado.nextInt();
+
         System.out.println("Valor unitário (Peça 1)");
         double valorPeca1 = teclado.nextDouble();
+
         System.out.println("Quantidade (Peça 2)");
         int quantidadePeca2 = teclado.nextInt();
+
         System.out.println("Valor unitário (Peça 2)");
         double valorpeca2 = teclado.nextDouble();
+
         final double ipi = 10;
         double resultadoTotal = (valorPeca1 * quantidadePeca1 + valorpeca2 * quantidadePeca2) * (ipi / 100 + 1);
         DecimalFormat dec = new DecimalFormat("0.00");
+
         System.out.println("Valor das peças + imposto = " + dec.format(resultadoTotal));
         System.out.println("Imposto a ser pago = " + (resultadoTotal - (valorPeca1 * quantidadePeca1 + valorpeca2 * quantidadePeca2)));
     }
