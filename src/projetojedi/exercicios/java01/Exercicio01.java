@@ -11,12 +11,16 @@ public class Exercicio01 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Digite sua idade em anos, meses e dias");
+
         System.out.println("Em anos:");
         int anos = teclado.nextInt();
+
         System.out.println("Em meses:");
         int meses = teclado.nextInt();
+
         System.out.println("Em dias:");
         int dias = teclado.nextInt();
+
         int resultado = (anos * 365) + (meses * 30) + dias;
         System.out.println(anos + " anos, " + meses + " meses e " + dias + " dias = " + resultado + " dias");
     }
